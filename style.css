@@ -131,7 +131,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 250px;
 }
 
 .nav {
@@ -327,6 +327,9 @@ header {
 
 .about-me__img {
     box-shadow: var(--boxshadow);
+    grid-area: img;
+    min-width: 400px;
+    position: relative;
 }
 
 @media (min-width: 600px) {
